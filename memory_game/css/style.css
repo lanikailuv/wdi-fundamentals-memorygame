@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+text-align: center;
+}
+h1 {
+font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+font-color: #0D2C40;
+letter-spacing; 1px;
+font-weight: 400;
+font-size: 45px;
+}
+h2 {
+font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+font-color: #F15831;
+letter-spacing; 1px;
+font-weight: 600;
+font-size: 18px;
+}
+p {
+font-family: "Droid Serif", serif;
+line-height: 24px;
+font-size: 18px;
+text-transform: none;
+}
+a {
+  font-family: "Raleway", sans-serif;
+  color: #F15831;
+  letter-spacing; 1px;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
