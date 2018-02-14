@@ -37,6 +37,7 @@ a {
   text-transform: uppercase;
   margin-left: 20px;
   margin-right: 20px;
+  border-bottom: 2px solid transparent;
 }
 header {
   background-color: #F15B31;
@@ -49,12 +50,47 @@ nav {
   padding: 20px 0;
 }
 main {
-width: 850px;
-margin-top: 35px;
-margin-bottom: 35px;
-margin-left: auto;
-margin-right: auto;
+  width: 850px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 img {
   margin: 40px 8px;
+}
+footer {
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+.copyright {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  float: left;
+}
+.message {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  float: right;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+ font-size: 0;
+}
+.name {
+  color: #F15B31;
+  font-weight: 700;
+}
+a:hover {
+border-color: white;
 }
